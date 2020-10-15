@@ -9,6 +9,7 @@ using MusicStore.Models;
 
 namespace MusicStoreCh6.Controllers
 {
+    [Route("MusicStore/[action]/{id?}")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
